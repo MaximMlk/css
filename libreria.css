@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Convergence&family=Gudea&family=Neucha&family=Overlock:wght@700&family=Special+Elite&family=Telex&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#general{
+    width: 800px;
+    margin: auto;
+    font-family: 'Gudea', sans-serif;
+}
+header{
+    width: 800px;
+    height: 200px;
+}
+.logo{
+    position: absolute;
+    width: 800px;
+    height: 300px;
+    clip: rect(0 800px 200px 0);
+}
+.empresa{
+    position: relative;
+    top: 20px;
+    left: 560px;
+    font-family: 'Special Elite', arial;
+    font-size: 18pt;
+    color: #ABCD12;
+    text-shadow: 0 0 7px blue;
+}
+#buscador{
+    position: relative;
+    padding-top: 30px;
+    padding-left: 550px;
+    font-size: 12pt;
+}
+#link li{
+    width: 160px;
+    display: block;
+    float: left;
+    background-color: rgba(231, 200, 159, .5);
+    font-family: 'Special Elite', arial;
+    text-align: center;
+}
+a{
+    color: #5C72FF;
+}
+a.menu{
+    text-decoration: none;  
+    font-size: 8pt;
+    font-weight: bold;
+    clear: left;
+}
+#noticias{
+    float: right;
+    width: 200px;
+    padding: 10px 0px;
+    font-size: 10pt;
+    text-align: justify;
+}
+.enlaces{
+    padding-top: 5px;
+}
+.lista{
+    list-style-type: none;
+}
+#contenido{
+    float: left;
+    width: 600px;
+}
+h3.titulo{
+    padding: 8px 0;
+}
+h4.titulo{
+    width: 390px;
+    float: right;
+    padding: 0;
+    color: green;
+}
+.imagen{
+    width: 200px;
+    float: left;
+    opacity: .8;
+}
+.sinopsis{
+    width: 360px;
+    height: 260px;
+    float: right;
+    text-align: justify;
+    padding: 0px 10px;
+    margin-right: 20px;
+    overflow: auto;
+}
+.autor{
+    color: rgb(234,150,150);
+    float: right;
+    padding: 15px 20px 0px 0px;
+    font-size: 10pt;
+}
+footer{
+    font-size: 10pt;
+    padding-top: 20px;
+    clear: both;
+}
+#pie {
+    margin: 30px;
+    text-align: center;
+    position: relative;
+    height: 250px;
+}
+.img1, .img2, .img3{
+    width: 120px;
+    height: 100px;
+    position: absolute; 
+}
+.img1{
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.img2{
+    left: 70px;
+    top: 60px;
+    z-index: 3;
+}
+.img3{
+    left: 140px;
+    top: 120px;
+    z-index: 2;
+}
